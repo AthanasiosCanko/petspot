@@ -16,6 +16,10 @@ class ViewUserViewController: UIViewController {
     @IBOutlet weak var pet_type_label: UILabel!
     @IBOutlet weak var number_of_friends_label: UILabel!
     
+    @IBAction func add_friend_button(_ sender: Any) {
+        // To do
+    }
+    
     @IBAction func back(_ sender: Any) {
         self.dismiss(animated: true) {
             print("View User dismissed.")

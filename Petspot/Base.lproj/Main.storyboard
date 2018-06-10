@@ -394,6 +394,9 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="nod-ub-7BI"/>
                                     <barButtonItem title="+ Add Friend" id="4la-lO-edj">
                                         <color key="tintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="add_friend_button:" destination="hND-ek-XgO" id="JLa-2h-8dj"/>
+                                        </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
