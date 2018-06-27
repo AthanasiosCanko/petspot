@@ -49,7 +49,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
                                     }
                                     else if String(describing: json["message"]!) == "CORRECT_CREDENTIALS" {
                                         global_user = (json["user"]! as? NSDictionary)!
-                                        print(global_user)
                                         self.performSegue(withIdentifier: "log_in", sender: [])
                                         print("Home shown.")
                                     }
